@@ -4,7 +4,7 @@ This is a detailed description of the various classes created to facilitate obje
 Attributes refer to what the object has while Methods refer to what the object does(function)
 
 MENUITEM CLASS
-  Attributes:
+Attributes:
   - name
   (str) The name of the drink.
   e.g. “latte”
@@ -16,7 +16,7 @@ MENUITEM CLASS
   e.g. {“water”: 100, “coffee”: 16}
 
 MENU CLASS
-  Methods:
+Methods:
   - get_items()
   Returns all the names of the available menu items as a concatenated string.
   e.g. “latte/espresso/cappuccino”
@@ -26,7 +26,7 @@ MENU CLASS
   otherwise returns None.
 
 COFFEEMAKER CLASS
-  Methods:
+Methods:
   - report()
   Prints a report of all resources.
   e.g.
@@ -43,7 +43,7 @@ COFFEEMAKER CLASS
   Deducts the required ingredients from the resources.
 
 MONEYMACHINE CLASS
-  Methods:
+Methods:
   - report()
   Prints the current profit
   e.g.
